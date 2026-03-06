@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Waranya Prawanno — Developer Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Syne:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- HEADER -->
+      <header>
+        <div class="header-inner">
+          <div>
+            <div class="badge">Portfolio</div>
+            <h1>Waranya<br /><span>Prawanno</span></h1>
+            <p class="tagline">
+              Computer Engineering student & full-stack developer building web
+              &amp; mobile applications.
+            </p>
+          </div>
+          <div class="header-links">
+            <a
+              href="/cdn-cgi/l/email-protection#f2859380939c8b9382809385939c9c9db2959f939b9edc919d9f"
+              ><span class="dot"></span>
+              <span
+                class="__cf_email__"
+                data-cfemail="87f0e6f5e6e9fee6f7f5e6f0e6e9e9e8c7e0eae6eeeba9e4e8ea"
+                >[email&#160;protected]</span
+              ></a
+            >
+            <a href="tel:0610480736"><span class="dot"></span> 061-048-0736</a>
+            <a href="#"><span class="dot"></span> Surin, Thailand</a>
+          </div>
+        </div>
+      </header>
+
+      <!-- STATUS BAR -->
+      <div class="status-bar">
+        <div class="status-item">
+          <div class="pulse"></div>
+          Available for opportunities
+        </div>
+        <div class="status-item">
+          <span class="icon">🎓</span> B.Eng. Computer Engineering · KU
+          Kamphaengsaen
+        </div>
+        <div class="status-item"><span class="icon">📍</span> Thailand</div>
+        <div class="status-item"><span class="icon">⭐</span> GPA 3.36</div>
+      </div>
+
+      <!-- SKILLS -->
+      <section class="reveal">
+        <div class="section-label">Tech Stack</div>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <div class="skill-group-label">Languages</div>
+            <div class="skill-tags">
+              <span class="tag">TypeScript</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Java</span>
+              <span class="tag">Python</span>
+              <span class="tag">C</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <div class="skill-group-label">Frontend</div>
+            <div class="skill-tags">
+              <span class="tag">React.js</span>
+              <span class="tag">React Native</span>
+              <span class="tag">Flutter</span>
+              <span class="tag">Tailwind CSS</span>
+              <span class="tag">PHP</span>
+              <span class="tag">Bootstrap</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <div class="skill-group-label">Backend</div>
+            <div class="skill-tags">
+              <span class="tag">NestJS</span>
+              <span class="tag">Go</span>
+              <span class="tag">Spring Boot</span>
+              <span class="tag">PHP</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <div class="skill-group-label">Database &amp; Tools</div>
+            <div class="skill-tags">
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">Git / GitLab</span>
+              <span class="tag">Docker</span>
+              <span class="tag">Figma</span>
+              <span class="tag">ClickUp</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section class="reveal">
+        <div class="section-label">Projects</div>
+        <div class="projects-list">
+          <!-- PROJECT 1 -->
+          <div class="project-card" id="proj-1">
+            <div class="project-header" onclick="toggleProject('proj-1')">
+              <div>
+                <div class="project-name">Soil Analysis Vehicle Web App</div>
+                <div class="project-desc">
+                  Web application supporting a mobile soil analysis vehicle for
+                  farmers and researchers — includes service scheduling, lab
+                  configuration, daily soil test recording, and automated report
+                  generation.
+                </div>
+                <div class="project-stack">
+                  <span class="stack-tag">React</span>
+                  <span class="stack-tag">PHP</span>
+                  <span class="stack-tag">NestJS</span>
+                  <span class="stack-tag blue">PostgreSQL</span>
+                  <span class="stack-tag blue">REST API</span>
+                  <span class="stack-tag">Git</span>
+                </div>
+              </div>
+              <div class="project-toggle">
+                <div class="project-meta">
+                  <div class="project-date">Apr - Jun 2025</div>
+                  <div class="project-type intern">Internship</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 2 -->
+          <div class="project-card" id="proj-2">
+            <div class="project-header" onclick="toggleProject('proj-2')">
+              <div>
+                <div class="project-name">MuayThai Web Application</div>
+                <div class="project-desc">
+                  Responsive web application for MuayThai management with
+                  polished UI/UX. Designed prototypes in Figma and built
+                  responsive components with React, Tailwind CSS, and
+                  TypeScript.
+                </div>
+                <div class="project-stack">
+                  <span class="stack-tag">React</span>
+                  <span class="stack-tag">TypeScript</span>
+                  <span class="stack-tag">Tailwind CSS</span>
+                  <span class="stack-tag red">Figma</span>
+                  <span class="stack-tag">Git</span>
+                </div>
+              </div>
+              <div class="project-toggle">
+                <div class="project-meta">
+                  <div class="project-date">Jan - Mar 2025</div>
+                  <div class="project-type">Academic</div>
+                </div>
+                <div class="toggle-arrow">▼</div>
+              </div>
+            </div>
+            <div class="project-expand">
+              <div class="project-expand-inner">
+                <div class="project-images">
+                  <div class="project-img-slot">
+                    <img src="assets/images/muaythai1.png" />
+                  </div>
+                  <div class="project-img-slot">
+                    <img src="assets/images/muaythai2.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 3 -->
+          <div class="project-card" id="proj-3">
+            <div class="project-header" onclick="toggleProject('proj-3')">
+              <div>
+                <div class="project-name">Bookstore Web Application</div>
+                <div class="project-desc">
+                  Full-stack bookstore system with RESTful APIs deployed on
+                  Apache Tomcat and database services hosted on Aiven via
+                  Docker-managed PostgreSQL. Frontend built with Java Swing
+                  enhanced with HTML and Bootstrap.
+                </div>
+                <div class="project-stack">
+                  <span class="stack-tag">Java Swing</span>
+                  <span class="stack-tag blue">PostgreSQL</span>
+                  <span class="stack-tag">Apache Tomcat</span>
+                  <span class="stack-tag">Docker</span>
+                  <span class="stack-tag">Bootstrap</span>
+                </div>
+              </div>
+              <div class="project-toggle">
+                <div class="project-meta">
+                  <div class="project-date">Feb - Mar 2025</div>
+                  <div class="project-type">Academic</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 4 -->
+          <div class="project-card" id="proj-4">
+            <div class="project-header" onclick="toggleProject('proj-4')">
+              <div>
+                <div class="project-name">Poultry Farm Management System</div>
+                <div class="project-desc">
+                  Complete web platform for poultry farm operations. Handled
+                  full-stack development including UI/UX design in Figma,
+                  database architecture in MySQL, and PHP-based system
+                  functionalities.
+                </div>
+                <div class="project-stack">
+                  <span class="stack-tag">PHP</span>
+                  <span class="stack-tag blue">MySQL</span>
+                  <span class="stack-tag">JavaScript</span>
+                  <span class="stack-tag">Bootstrap</span>
+                  <span class="stack-tag red">Figma</span>
+                  <span class="stack-tag">FileZilla</span>
+                </div>
+              </div>
+              <div class="project-toggle">
+                <div class="project-meta">
+                  <div class="project-date">Jul 2024 - Jan 2025</div>
+                  <div class="project-type">Subcontract</div>
+                </div>
+                <div class="toggle-arrow">▼</div>
+              </div>
+            </div>
+            <div class="project-expand">
+              <div class="project-expand-inner">
+                <div class="project-images">
+                  <div class="project-img-slot">
+                    <div class="img-placeholder-icon">
+                      <img src="assets/images/poultry_farm_1.png" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section class="reveal">
+        <div class="section-label">Work Experience</div>
+        <div class="exp-list">
+          <div class="exp-item">
+            <div class="exp-line"></div>
+            <div>
+              <div class="exp-header">
+                <div class="exp-company">T.C.C Technology Co., Ltd</div>
+                <div class="exp-period">Nov 2025 – Present</div>
+              </div>
+              <div class="exp-role">Intern Application Developer</div>
+              <ul class="exp-bullets">
+                <li>
+                  Developed mobile and web applications to support business
+                  operations
+                </li>
+                <li>
+                  Built web frontend with React.js and mobile apps using React
+                  Native &amp; Flutter
+                </li>
+                <li>
+                  Implemented RESTful APIs with Go and MySQL for backend
+                  services
+                </li>
+                <li>
+                  Used GitLab for version control and ClickUp for task
+                  management
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="exp-item">
+            <div class="exp-line"></div>
+            <div>
+              <div class="exp-header">
+                <div class="exp-company">
+                  Mitr Phol Innovation &amp; Research Center
+                </div>
+                <div class="exp-period">Apr – Jun 2025</div>
+              </div>
+              <div class="exp-role">Intern Programmer</div>
+              <ul class="exp-bullets">
+                <li>
+                  Developed a web app for a mobile soil analysis vehicle for
+                  farmers and researchers
+                </li>
+                <li>
+                  Built frontend with React &amp; PHP; backend with NestJS &amp;
+                  PostgreSQL
+                </li>
+                <li>
+                  Collaborated directly with researchers to align system with
+                  real-world field operations
+                </li>
+                <li>
+                  Integrated REST APIs for data exchange between system
+                  components
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section class="reveal">
+        <div class="section-label">Education</div>
+        <div class="edu-card">
+          <div>
+            <div class="edu-school">Kasetsart University, Kamphaengsaen</div>
+            <div class="edu-degree">
+              B.Eng. Computer Engineering · Jun 2022 – Present
+            </div>
+            <div class="gpa-badge"><span>⭐</span> Cumulative GPA: 3.36</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- LANGUAGES -->
+      <section class="reveal">
+        <div class="section-label">Languages</div>
+        <div class="lang-row">
+          <div class="lang-item">
+            <div class="lang-name">Thai</div>
+            <div class="lang-level">Native</div>
+          </div>
+          <div class="lang-item">
+            <div class="lang-name">English</div>
+            <div class="lang-level">Semi-fluent</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="reveal">
+        <div class="footer-inner">
+          <div class="footer-copy">© 2026 Waranya Prawanno</div>
+          <div class="footer-contact">
+            <a href="mailto:waranyaprawanno@gmail.com"
+              >waranyaprawanno@gmail.com</a
+            >
+            <a href="tel:0610480736">061-048-0736</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      function toggleProject(id) {
+        const card = document.getElementById(id);
+        const isOpen = card.classList.contains("open");
+        document
+          .querySelectorAll(".project-card.open")
+          .forEach((c) => c.classList.remove("open"));
+        if (!isOpen) {
+          card.classList.add("open");
+          setTimeout(() => {
+            card.scrollIntoView({ behavior: "smooth", block: "nearest" });
+          }, 60);
+        }
+      }
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((e, i) => {
+            if (e.isIntersecting) {
+              setTimeout(() => e.target.classList.add("visible"), i * 60);
+            }
+          });
+        },
+        { threshold: 0.1 },
+      );
+
+      document
+        .querySelectorAll(".reveal")
+        .forEach((el) => observer.observe(el));
+    </script>
+  </body>
+</html>
